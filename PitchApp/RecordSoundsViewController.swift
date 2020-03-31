@@ -47,8 +47,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     @IBAction func stopRecordTapped(_ sender: Any) {
-
-        
         configureUI(false)
         
         audioRecorder.stop()
